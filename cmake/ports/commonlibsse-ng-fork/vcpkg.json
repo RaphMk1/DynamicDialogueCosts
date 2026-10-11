@@ -1,0 +1,20 @@
+{
+  "name": "commonlibsse-ng-fork",
+  "version": "12.0.0",
+  "description": "Custom overlay port for CommonLibSSE-NG latest",
+  "homepage": "https://github.com/alandtse/CommonLibVR",
+  "license": "GPL-3.0-or-later",
+  "supports": "windows & x64",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    },
+    "directxmath",
+    "directxtk",
+    "fmt",
+    "rapidcsv",
+    "spdlog",
+    "xbyak"
+  ]
+}
